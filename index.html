@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/dengru.js"></script>
+    </head>
+    <body onload="chk()">
+        <!--------------- 导航栏 ----------------->
+    <div class="header">
+        <div class="container">
+            <!-- logo -->
+				<div class="site-logo">
+					<a href="#">
+						<img src="image/index/logo.jpg"/>
+					</a>
+				</div>
+				
+			<!-- 首页导航 -->
+				<div class="site-list">
+					<ul class="clearfix">
+						<li>
+							<a href="#"><font color="coral"><b>首页</b></font></a>
+						</li>
+                        <li>
+							<a href="film.html">电影</a>
+						</li>
+                        <li>
+							<a href="cartoon.html">动漫</a>
+						</li>
+                        <li>
+							<a href="teleplay.html">电视剧</a>
+						</li>
+					</ul>
+			
+				</div> 
+			<!-- 登入/注册 -->
+				<div class="login">
+					<a href="dengru.html">
+						<img src="image/index/yonghu.png"/>
+					</a>
+				</div>
+			<!-- 搜索框 -->
+				<div class="site-search">
+					<form action="">
+						<input class="search-text"   type="text" placeholder="请输入关键字"/>
+						<input class="submit" type="submit" value="搜索"/>
+					</form>
+				</div>
+        </div>
+    </div>
+    	<!--------------- 轮播图 ----------------->
+	<div class="site-content">
+		<div class="container">
+	<!----- 轮播图 ----->
+			<div class="box">
+				<ul id="imglist">
+					<li><img src="image/index/0.jpg" id="lb" alt=""></li>
+					<li><img src="image/index/1.png" id="lb" alt=""></li>
+					<li><img src="image/index/2.jpg" id="lb" alt=""></li>
+					<li><img src="image/index/3.jpg" id="lb" alt=""></li>
+				</ul>
+				<!-- 轮播点点 -->
+				 <ul id="btnlist">
+					<li class="btn active"></li>
+					<li class="btn"></li>
+					<li class="btn"></li>
+					<li class="btn"></li>
+					<li class="btn"></li>
+				</ul>
+				
+			</div>
+			<script src="js/lunb.js"></script>
+
+		</div>
+	</div>
+    <!--------------- 内容详细 ----------------->
+		<div class="content">
+			<div class="container">
+			<!----- tab菜单 ----->
+				<div id="tab">
+					<div id="tabNav">
+						<p><strong>电视剧</strong></p>
+						<ul>
+							<li class="active">最新</li>
+							<li>内地剧</li>
+							<li>日韩剧</li>
+						</ul>
+					</div>
+					<div id="main">
+						<div class="item show">
+							<!-- tab最新模块 -->
+							<div class="main-zuixin">
+								
+								<div class="zuixin-left"><!-- 左图 -->
+									<img src="image/index/z0(1).jpg" />
+									<a href="#"> 家族荣耀</a>
+								</div>
+								<div class="zuixin-right"><!-- 右图 -->
+									<div class="zuixin-right1"><!-- 左列 -->
+										<div>
+											<img src="image/index/z1(1).jpg" />
+											<a href="#"> 传家</a>
+										</div>
+										<div>
+											<img src="image/index/z2(1).jpg" />
+											<a href="#"> 花间新娘</a>
+										</div>
+									</div>
+									<div class="zuixin-right2"><!-- 右列 -->
+										<div>
+											<img src="image/index/z3(1).jpg" />
+											<a href="#"> 从零到一的爱情</a>
+										</div>
+										<div>
+											<img src="image/index/z4(1).jpg" />
+											<a href="#"> 你好啊我的橘子恋人</a>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<!-- tab内地剧模块 -->
+						<div class="item">
+							
+							<div class="zuixin-left"><!-- 左图 -->
+								<img src="image/index/nei1(1).jpg" />
+								<a href="#"> 三生三世十里桃花</a>
+							</div>
+							<div class="zuixin-right"><!-- 右图 -->
+								<div class="zuixin-right1"><!-- 左列 -->
+									<div>
+										<img src="image/index/nei2(1).jpg" />
+										<a href="#"> 人民的名义</a>
+									</div>
+									<div>
+										<img src="image/index/nei4(1).jpg" />
+										<a href="#"> 烈火如歌</a>
+									</div>
+								</div>
+								<div class="zuixin-right2"><!-- 右列 -->
+									<div>
+										<img src="image/index/nei3(1).jpg" />
+										<a href="#"> 恋爱先生</a>
+									</div>
+									<div>
+										<img src="image/index/nei5(1).jpg" />
+										<a href="#"> 热血长安</a>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!-- tab日韩剧模块 -->
+						<div class="item">
+							
+							<div class="zuixin-left"><!-- 左图 -->
+								<img src="image/index/rh0(1).jpg" />
+								<a href="#"> 我们有点不对劲</a>
+							</div>
+							<div class="zuixin-right"><!-- 右图 -->
+								<div class="zuixin-right1"><!-- 左列 -->
+									<div>
+										<img src="image/index/rh1(1).jpg" />
+										<a href="#"> 继承者们</a>
+									</div>
+									<div>
+										<img src="image/index/rh3(1).jpg" />
+										<a href="#"> 我的女孩</a>
+									</div>
+								</div>
+								<div class="zuixin-right2"><!-- 右列 -->
+									<div>
+										<img src="image/index/rh2(1).jpg" />
+										<a href="#"> 非自然死亡</a>
+									</div>
+									<div>
+										<img src="image/index/rh4(1).jpg" />
+										<a href="#"> 微微一笑很倾城</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <script src="js/tab.js"></script>		 -->
+										
+		<!----- tab菜单的右侧框 ----->		
+				<div class="tabright">
+					<div class="tabright-list">
+						<h3>电视剧热播榜</h3>
+					</div>
+					<hr size="1" color="#A2A2A2"/>
+					<div class="tabright-list">
+						<p><font face="微软雅黑" size="4"><i>1 </i></font></p>
+						<a href="#">传家</a>
+					</div>
+					<div class="tabright-list">
+						<p><font face="微软雅黑" size="4"><i>2 </i></font></p>
+						<a href="#">法医秦明之读心者</a>
+					</div>
+					<div class="tabright-list">
+						<p><font face="微软雅黑" size="4"><i>3 </i></font></p>
+						<a href="#">重生之门</a>
+					</div>
+					<div class="tabright-list">
+						<p><font face="微软雅黑" size="4"><i>4 </i></font></p>
+						<a href="#">请叫我总监</a>
+					</div>
+					<div class="tabright-list">
+						<p><font face="微软雅黑" size="4"><i>5 </i></font></p>
+						<a href="#">良辰好景知几何</a>
+					</div>				
+				</div>
+			
+		<!----- tab菜单下方 ----->
+				<!-- 电影 -->
+				<div class="tabdown">
+					<a href="film.html"><h1>电影</h1></a>
+					<ul>
+						<li>
+							<img src="image/index/film1.jpg" alt="">
+							<div><a href="#">你好，李焕英</a></div>
+							
+						</li>
+						<li>
+							<img src="image/index/film2.jpeg" alt="">
+							<div><a href="#">乘风破浪</a></div>
+						</li>
+						<li>
+							<img src="image/index/film3.jpeg" alt="">
+							<div><a href="#">无问东西</a></div>
+						</li>
+						<li>
+							<img src="image/index/film4.jpg" alt="">
+							<div><a href="#">唐人街探案3</a></div>
+						</li>
+						<li>
+							<img src="image/index/film5.jpg" alt="">
+							<div><a href="#">海上钢琴师</a></div>
+						</li>
+						<li>
+							<img src="image/index/film6.jpg" alt="">
+							<div><a href="#">画皮</a></div>
+						</li>
+					</ul>
+				</div>
+				<!-- 电视剧 -->
+				<div class="tabdown">
+					<a href="teleplay.html"><h1>电视剧</h1></a>
+					<ul>
+						<li>
+							<img src="image/index/dian1.jpg" alt="">
+							<div><a href="#">大宅门</a></div>
+							
+						</li>
+						<li>
+							<img src="image/index/dian2.jpg" alt="">
+							<div><a href="#">潜伏</a></div>
+						</li>
+						<li>
+							<img src="image/index/dian5.jpg" alt="">
+							<div><a href="#">伪装者</a></div>
+						</li>
+						<li>
+							<img src="image/index/dian3.jpg" alt="">
+							<div><a href="#">十宗罪</a></div>
+						</li>
+						<li>
+							<img src="image/index/dian4.jpg" alt="">
+							<div><a href="#">法医秦明</a></div>
+						</li>
+						<li>
+							<img src="image/index/dain6.jpg" alt="">
+							<div><a href="#">白夜追凶</a></div>
+						</li>
+					</ul>
+				</div>
+			
+			</div>
+		</div>
+            <!---------------- 底部栏 ---------------->
+		<div class="footer">
+			<div class="container">
+				<div class="footer-liebiao">
+					<div class="guanyu">
+						<table>
+							<tr class="neir">
+								<td colspan="5"><h4>关于我们</h4></td>
+							</tr>
+							<tr>
+								<td><a href="#">关于我们</a></td>
+								<td><a href="#">联系我们</a></td>
+								<td><a href="#">在线反馈</a></td>
+								<td><a href="#">侵权投诉</a></td>
+								<td><a href="#">繁体字</a></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="xieyi">
+						<table>
+							<tr class="neir">
+								<td><h4>协议声明</h4></td>
+							</tr>
+							<tr>
+								<td><a href="#">用户协议</a></td>
+								<td><a href="#">隐私政策</a></td>
+								<td><a href="#">历史协议版本</a></td>
+								<td><a href="#">知识产权声明</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<!-- 版权说明 -->
+				<div class="footer-infro">
+					XXXX影视信息科技有限公司版权所有
+					<br>XXXX影视信息科技有限公司 
+				</div>
+			</div>
+		</div>
+    </body>
+ </html>

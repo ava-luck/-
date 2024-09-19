@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+	list-style: none;
+}
+/* --------导航栏------------ */
+.header{
+	height: 80px;
+	background-color: black;
+}
+.container{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header .site-logo{
+	float: left;
+	width: 180px;
+	margin-top: 10px;
+}
+.header .site-logo a{
+	display: block;
+	width: 180px;
+	height: 70px;
+}
+.header .site-logo img{
+	float: left;
+	width: 170px;
+    height:50px;
+	margin-left: 10px;
+}
+
+.header .site-list ul li{
+	float: left;
+}
+.header .site-list ul li a{
+	display: block;
+	padding: 25px 25px 15px;
+	color: #FFFFFF;
+}
+.header .site-list ul li a:hover{
+	color: coral;
+}
+
+.header .site-search{
+	float: right;
+	width: 300px;
+	margin-top: 25px;
+}
+.header .site-search form{
+	position: relative;
+	width: 300px;
+	height: 50px;
+}
+.search-text{
+    float: left;
+	width: 200px;
+	height: 30px;
+	border: 1px solid #E0E0E0;
+	font-size: 14px;
+	padding: 0 10px;
+	background-color: lightgray;
+}
+.submit{
+    float: left;
+    width: 50px;
+    height: 32px; 
+}
+.login{
+    float: right;
+    margin: 24px 20px 0 0;
+    color: #FF7F50;
+}
+.login a{
+    color: #F6F6F6;
+}
+.login a:hover{
+    color: #FF7F50;
+}
+.login img{width: 35px;}
+
+/* 视频预告 */
+#ship{
+    margin-top: 40px;
+}
+.beijing{
+    width: 100%;
+    height: 761px;
+    background-color: #000000;
+}

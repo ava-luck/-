@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+html{
+    background:url(../image/dengru/background.jpeg) no-repeat 100% fixed ;
+}
+.box{
+    margin-top: 150px;
+    margin-left: 500px;
+}
+a{
+	color: #666;
+}
+
+a:hover{
+	color: rgb(144,129,241);
+}
+table{
+	border:1px solid grey;
+}
